@@ -1,0 +1,20 @@
+{
+  "name": "shopify",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "hawthornehill <me@hawthornehill>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^15.3.2"
+  }
+}
