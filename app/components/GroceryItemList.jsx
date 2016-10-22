@@ -9,7 +9,7 @@ module.exports = React.createClass({
         <div>
           {this.props.items.map(function(item,index){
             return (
-              <GroceryItem item={item}/>  
+              <GroceryItem item={item} key={"item"+index}/>
             )
           })}
         </div>
