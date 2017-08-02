@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0",	
-	"bundle": "browserify -t reactify .\\app\\main.jsx | uglifyjs > .\\.tmp\\app.js"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "bundle": "browserify -t reactify .\\app\\main.jsx | uglifyjs > .\\.tmp\\app.js"
   },
   "author": "",
   "license": "ISC",
